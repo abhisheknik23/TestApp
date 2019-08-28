@@ -9,22 +9,13 @@
 import Foundation
 
 struct DataModel : Codable {
-    let status : String?
-    let totalResults : Int?
-    let articles : [Articles]?
+    let status: String
+    let totalResults: Int
+    let articles: [Articles]
     
-    enum CodingKeys: String, CodingKey {
-        
-        case status = "status"
-        case totalResults = "totalResults"
-        case articles = "articles"
+    init(status: String, totalResults: Int, articles: [Articles]){
+        self.status = status
+        self.totalResults = totalResults
+        self.articles = articles
     }
-    
-    init(from decoder: Decoder) throws {
-        let values = try decoder.container(keyedBy: CodingKeys.self)
-        status = try values.decodeIfPresent(String.self, forKey: .status)
-        totalResults = try values.decodeIfPresent(Int.self, forKey: .totalResults)
-        articles = try values.decodeIfPresent([Articles].self, forKey: .articles)
-    }
-    
 }

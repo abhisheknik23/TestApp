@@ -27,6 +27,21 @@
 		77146AE2230F0AC000F91B11 /* Source.swift in Sources */ = {isa = PBXBuildFile; fileRef = 77146ADB230F0AC000F91B11 /* Source.swift */; };
 		77146AE3230F0AC000F91B11 /* Source.swift in Sources */ = {isa = PBXBuildFile; fileRef = 77146ADB230F0AC000F91B11 /* Source.swift */; };
 		77146AE4230F0AC000F91B11 /* Source.swift in Sources */ = {isa = PBXBuildFile; fileRef = 77146ADB230F0AC000F91B11 /* Source.swift */; };
+		7777692C231595B700BC2C55 /* Webservice.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7777692B231595B700BC2C55 /* Webservice.swift */; };
+		7777692D231595B700BC2C55 /* Webservice.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7777692B231595B700BC2C55 /* Webservice.swift */; };
+		7777692E231595B700BC2C55 /* Webservice.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7777692B231595B700BC2C55 /* Webservice.swift */; };
+		7777693023159A7600BC2C55 /* ArticleTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7777692F23159A7600BC2C55 /* ArticleTableViewCell.swift */; };
+		7777693123159A7600BC2C55 /* ArticleTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7777692F23159A7600BC2C55 /* ArticleTableViewCell.swift */; };
+		7777693223159A7600BC2C55 /* ArticleTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7777692F23159A7600BC2C55 /* ArticleTableViewCell.swift */; };
+		7777693423159CAB00BC2C55 /* UITableViewCell+identifier.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7777693323159CAB00BC2C55 /* UITableViewCell+identifier.swift */; };
+		7777693523159CAB00BC2C55 /* UITableViewCell+identifier.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7777693323159CAB00BC2C55 /* UITableViewCell+identifier.swift */; };
+		7777693623159CAB00BC2C55 /* UITableViewCell+identifier.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7777693323159CAB00BC2C55 /* UITableViewCell+identifier.swift */; };
+		77B538C0231446A100CF16DA /* RobotoSlab-Bold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 77B538BE231446A100CF16DA /* RobotoSlab-Bold.ttf */; };
+		77B538C1231446A100CF16DA /* RobotoSlab-Bold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 77B538BE231446A100CF16DA /* RobotoSlab-Bold.ttf */; };
+		77B538C2231446A100CF16DA /* RobotoSlab-Bold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 77B538BE231446A100CF16DA /* RobotoSlab-Bold.ttf */; };
+		77B538C3231446A100CF16DA /* RobotoSlab-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 77B538BF231446A100CF16DA /* RobotoSlab-Regular.ttf */; };
+		77B538C4231446A100CF16DA /* RobotoSlab-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 77B538BF231446A100CF16DA /* RobotoSlab-Regular.ttf */; };
+		77B538C5231446A100CF16DA /* RobotoSlab-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 77B538BF231446A100CF16DA /* RobotoSlab-Regular.ttf */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -65,6 +80,11 @@
 		77146AD5230F08FB00F91B11 /* DataViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DataViewModel.swift; sourceTree = "<group>"; };
 		77146AD9230F0AC000F91B11 /* Articles.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Articles.swift; sourceTree = "<group>"; };
 		77146ADB230F0AC000F91B11 /* Source.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Source.swift; sourceTree = "<group>"; };
+		7777692B231595B700BC2C55 /* Webservice.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Webservice.swift; sourceTree = "<group>"; };
+		7777692F23159A7600BC2C55 /* ArticleTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ArticleTableViewCell.swift; sourceTree = "<group>"; };
+		7777693323159CAB00BC2C55 /* UITableViewCell+identifier.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UITableViewCell+identifier.swift"; sourceTree = "<group>"; };
+		77B538BE231446A100CF16DA /* RobotoSlab-Bold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "RobotoSlab-Bold.ttf"; sourceTree = "<group>"; };
+		77B538BF231446A100CF16DA /* RobotoSlab-Regular.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "RobotoSlab-Regular.ttf"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -121,6 +141,8 @@
 				77146ACD230F07E300F91B11 /* ViewModel */,
 				77146ACF230F07F900F91B11 /* Controllers */,
 				77146ACE230F07EC00F91B11 /* Services */,
+				77B538C62314482900CF16DA /* Extensions */,
+				77B538BC2314467500CF16DA /* Resources */,
 				77146AA4230F05AC00F91B11 /* Assets.xcassets */,
 				77146AA9230F05AC00F91B11 /* Info.plist */,
 				77146AA1230F05AA00F91B11 /* TestApp.xcdatamodeld */,
@@ -161,6 +183,7 @@
 			children = (
 				77146A9E230F05AA00F91B11 /* Main.storyboard */,
 				77146AA6230F05AC00F91B11 /* LaunchScreen.storyboard */,
+				7777692F23159A7600BC2C55 /* ArticleTableViewCell.swift */,
 			);
 			path = View;
 			sourceTree = "<group>";
@@ -176,6 +199,7 @@
 		77146ACE230F07EC00F91B11 /* Services */ = {
 			isa = PBXGroup;
 			children = (
+				7777692B231595B700BC2C55 /* Webservice.swift */,
 			);
 			path = Services;
 			sourceTree = "<group>";
@@ -194,6 +218,31 @@
 				77146A9A230F05AA00F91B11 /* AppDelegate.swift */,
 			);
 			path = AppDelegate;
+			sourceTree = "<group>";
+		};
+		77B538BC2314467500CF16DA /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				77B538BD2314468A00CF16DA /* fonts */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		77B538BD2314468A00CF16DA /* fonts */ = {
+			isa = PBXGroup;
+			children = (
+				77B538BE231446A100CF16DA /* RobotoSlab-Bold.ttf */,
+				77B538BF231446A100CF16DA /* RobotoSlab-Regular.ttf */,
+			);
+			path = fonts;
+			sourceTree = "<group>";
+		};
+		77B538C62314482900CF16DA /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				7777693323159CAB00BC2C55 /* UITableViewCell+identifier.swift */,
+			);
+			path = Extensions;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -300,6 +349,8 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				77B538C0231446A100CF16DA /* RobotoSlab-Bold.ttf in Resources */,
+				77B538C3231446A100CF16DA /* RobotoSlab-Regular.ttf in Resources */,
 				77146AA8230F05AC00F91B11 /* LaunchScreen.storyboard in Resources */,
 				77146AA5230F05AC00F91B11 /* Assets.xcassets in Resources */,
 				77146AA0230F05AA00F91B11 /* Main.storyboard in Resources */,
@@ -310,6 +361,8 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				77B538C4231446A100CF16DA /* RobotoSlab-Regular.ttf in Resources */,
+				77B538C1231446A100CF16DA /* RobotoSlab-Bold.ttf in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -317,6 +370,8 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				77B538C5231446A100CF16DA /* RobotoSlab-Regular.ttf in Resources */,
+				77B538C2231446A100CF16DA /* RobotoSlab-Bold.ttf in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -328,7 +383,10 @@
 			buildActionMask = 2147483647;
 			files = (
 				77146AE2230F0AC000F91B11 /* Source.swift in Sources */,
+				7777693023159A7600BC2C55 /* ArticleTableViewCell.swift in Sources */,
+				7777693423159CAB00BC2C55 /* UITableViewCell+identifier.swift in Sources */,
 				77146A9D230F05AA00F91B11 /* ViewController.swift in Sources */,
+				7777692C231595B700BC2C55 /* Webservice.swift in Sources */,
 				77146AD2230F08E900F91B11 /* DataModel.swift in Sources */,
 				77146AA3230F05AA00F91B11 /* TestApp.xcdatamodeld in Sources */,
 				77146A9B230F05AA00F91B11 /* AppDelegate.swift in Sources */,
@@ -343,8 +401,11 @@
 			files = (
 				77146ADD230F0AC000F91B11 /* Articles.swift in Sources */,
 				77146AB3230F05AC00F91B11 /* TestAppTests.swift in Sources */,
+				7777692D231595B700BC2C55 /* Webservice.swift in Sources */,
 				77146AE3230F0AC000F91B11 /* Source.swift in Sources */,
+				7777693523159CAB00BC2C55 /* UITableViewCell+identifier.swift in Sources */,
 				77146AD3230F08E900F91B11 /* DataModel.swift in Sources */,
+				7777693123159A7600BC2C55 /* ArticleTableViewCell.swift in Sources */,
 				77146AD7230F08FB00F91B11 /* DataViewModel.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -355,8 +416,11 @@
 			files = (
 				77146ADE230F0AC000F91B11 /* Articles.swift in Sources */,
 				77146ABE230F05AC00F91B11 /* TestAppUITests.swift in Sources */,
+				7777692E231595B700BC2C55 /* Webservice.swift in Sources */,
 				77146AE4230F0AC000F91B11 /* Source.swift in Sources */,
+				7777693623159CAB00BC2C55 /* UITableViewCell+identifier.swift in Sources */,
 				77146AD4230F08E900F91B11 /* DataModel.swift in Sources */,
+				7777693223159A7600BC2C55 /* ArticleTableViewCell.swift in Sources */,
 				77146AD8230F08FB00F91B11 /* DataViewModel.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
