@@ -18,11 +18,12 @@ class ViewController: UIViewController {
         super.viewDidLoad()
         // Do any additional setup after loading the view.
         self.navigationController?.navigationBar.prefersLargeTitles = true
-        self.tableViewHeadLine.delegate = self
         getHeadLines()
     }
     
     func getHeadLines(){
+        let date = Date()
+        Constant.date =  date.getDateForNews()
         let url = URL(string: Constant.BASEURL)!
         Webservice().getArticles(url: url) { articles in
             if let articles = articles {
@@ -57,7 +58,8 @@ extension ViewController: UITableViewDelegate, UITableViewDataSource {
         let articleVM = self.articleListVM.articleAtIndex(indexPath.row)
         
         cell.titleLabel.text = articleVM.title
-        cell.descriptionLabel.text = articleVM.description
+        //cell.descriptionLabel.text = articleVM.description
+        cell.sourceLabel.text = articleVM.source.name + " " + articleVM.publishedAt
         return cell
     }
 }

@@ -47,4 +47,12 @@ extension ArticleViewModel {
     var description: String {
         return self.article.description
     }
+    
+    var source: Source {
+        return self.article.source
+    }
+    
+    var publishedAt: String {
+        return self.article.publishedAt
+    }
 }

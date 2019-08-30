@@ -36,6 +36,12 @@
 		7777693423159CAB00BC2C55 /* UITableViewCell+identifier.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7777693323159CAB00BC2C55 /* UITableViewCell+identifier.swift */; };
 		7777693523159CAB00BC2C55 /* UITableViewCell+identifier.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7777693323159CAB00BC2C55 /* UITableViewCell+identifier.swift */; };
 		7777693623159CAB00BC2C55 /* UITableViewCell+identifier.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7777693323159CAB00BC2C55 /* UITableViewCell+identifier.swift */; };
+		77925D882316F0AD004F96DB /* DataBaseManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 77925D872316F0AD004F96DB /* DataBaseManager.swift */; };
+		77925D892316F0AD004F96DB /* DataBaseManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 77925D872316F0AD004F96DB /* DataBaseManager.swift */; };
+		77925D8A2316F0AD004F96DB /* DataBaseManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 77925D872316F0AD004F96DB /* DataBaseManager.swift */; };
+		77925D8C2316FAEE004F96DB /* DetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 77925D8B2316FAEE004F96DB /* DetailViewController.swift */; };
+		77925D8D2316FAEE004F96DB /* DetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 77925D8B2316FAEE004F96DB /* DetailViewController.swift */; };
+		77925D8E2316FAEE004F96DB /* DetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 77925D8B2316FAEE004F96DB /* DetailViewController.swift */; };
 		77B538C0231446A100CF16DA /* RobotoSlab-Bold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 77B538BE231446A100CF16DA /* RobotoSlab-Bold.ttf */; };
 		77B538C1231446A100CF16DA /* RobotoSlab-Bold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 77B538BE231446A100CF16DA /* RobotoSlab-Bold.ttf */; };
 		77B538C2231446A100CF16DA /* RobotoSlab-Bold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 77B538BE231446A100CF16DA /* RobotoSlab-Bold.ttf */; };
@@ -83,6 +89,8 @@
 		7777692B231595B700BC2C55 /* Webservice.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Webservice.swift; sourceTree = "<group>"; };
 		7777692F23159A7600BC2C55 /* ArticleTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ArticleTableViewCell.swift; sourceTree = "<group>"; };
 		7777693323159CAB00BC2C55 /* UITableViewCell+identifier.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UITableViewCell+identifier.swift"; sourceTree = "<group>"; };
+		77925D872316F0AD004F96DB /* DataBaseManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DataBaseManager.swift; sourceTree = "<group>"; };
+		77925D8B2316FAEE004F96DB /* DetailViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailViewController.swift; sourceTree = "<group>"; };
 		77B538BE231446A100CF16DA /* RobotoSlab-Bold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "RobotoSlab-Bold.ttf"; sourceTree = "<group>"; };
 		77B538BF231446A100CF16DA /* RobotoSlab-Regular.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "RobotoSlab-Regular.ttf"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -135,6 +143,7 @@
 		77146A99230F05AA00F91B11 /* TestApp */ = {
 			isa = PBXGroup;
 			children = (
+				77925D862316F092004F96DB /* DataBaseManager */,
 				77146AD0230F081900F91B11 /* AppDelegate */,
 				77146ACB230F07BF00F91B11 /* Model */,
 				77146ACC230F07DE00F91B11 /* View */,
@@ -208,6 +217,7 @@
 			isa = PBXGroup;
 			children = (
 				77146A9C230F05AA00F91B11 /* ViewController.swift */,
+				77925D8B2316FAEE004F96DB /* DetailViewController.swift */,
 			);
 			path = Controllers;
 			sourceTree = "<group>";
@@ -218,6 +228,14 @@
 				77146A9A230F05AA00F91B11 /* AppDelegate.swift */,
 			);
 			path = AppDelegate;
+			sourceTree = "<group>";
+		};
+		77925D862316F092004F96DB /* DataBaseManager */ = {
+			isa = PBXGroup;
+			children = (
+				77925D872316F0AD004F96DB /* DataBaseManager.swift */,
+			);
+			path = DataBaseManager;
 			sourceTree = "<group>";
 		};
 		77B538BC2314467500CF16DA /* Resources */ = {
@@ -385,6 +403,7 @@
 				77146AE2230F0AC000F91B11 /* Source.swift in Sources */,
 				7777693023159A7600BC2C55 /* ArticleTableViewCell.swift in Sources */,
 				7777693423159CAB00BC2C55 /* UITableViewCell+identifier.swift in Sources */,
+				77925D8C2316FAEE004F96DB /* DetailViewController.swift in Sources */,
 				77146A9D230F05AA00F91B11 /* ViewController.swift in Sources */,
 				7777692C231595B700BC2C55 /* Webservice.swift in Sources */,
 				77146AD2230F08E900F91B11 /* DataModel.swift in Sources */,
@@ -392,6 +411,7 @@
 				77146A9B230F05AA00F91B11 /* AppDelegate.swift in Sources */,
 				77146ADC230F0AC000F91B11 /* Articles.swift in Sources */,
 				77146AD6230F08FB00F91B11 /* DataViewModel.swift in Sources */,
+				77925D882316F0AD004F96DB /* DataBaseManager.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -400,11 +420,13 @@
 			buildActionMask = 2147483647;
 			files = (
 				77146ADD230F0AC000F91B11 /* Articles.swift in Sources */,
+				77925D892316F0AD004F96DB /* DataBaseManager.swift in Sources */,
 				77146AB3230F05AC00F91B11 /* TestAppTests.swift in Sources */,
 				7777692D231595B700BC2C55 /* Webservice.swift in Sources */,
 				77146AE3230F0AC000F91B11 /* Source.swift in Sources */,
 				7777693523159CAB00BC2C55 /* UITableViewCell+identifier.swift in Sources */,
 				77146AD3230F08E900F91B11 /* DataModel.swift in Sources */,
+				77925D8D2316FAEE004F96DB /* DetailViewController.swift in Sources */,
 				7777693123159A7600BC2C55 /* ArticleTableViewCell.swift in Sources */,
 				77146AD7230F08FB00F91B11 /* DataViewModel.swift in Sources */,
 			);
@@ -415,11 +437,13 @@
 			buildActionMask = 2147483647;
 			files = (
 				77146ADE230F0AC000F91B11 /* Articles.swift in Sources */,
+				77925D8A2316F0AD004F96DB /* DataBaseManager.swift in Sources */,
 				77146ABE230F05AC00F91B11 /* TestAppUITests.swift in Sources */,
 				7777692E231595B700BC2C55 /* Webservice.swift in Sources */,
 				77146AE4230F0AC000F91B11 /* Source.swift in Sources */,
 				7777693623159CAB00BC2C55 /* UITableViewCell+identifier.swift in Sources */,
 				77146AD4230F08E900F91B11 /* DataModel.swift in Sources */,
+				77925D8E2316FAEE004F96DB /* DetailViewController.swift in Sources */,
 				7777693223159A7600BC2C55 /* ArticleTableViewCell.swift in Sources */,
 				77146AD8230F08FB00F91B11 /* DataViewModel.swift in Sources */,
 			);
