@@ -38,6 +38,9 @@
                                                 <view contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="NO" translatesAutoresizingMaskIntoConstraints="NO" id="ECU-ZE-2oo">
                                                     <rect key="frame" x="16" y="12" width="343" height="206"/>
                                                     <subviews>
+                                                        <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="77d-gy-HTO">
+                                                            <rect key="frame" x="0.0" y="0.0" width="343" height="206"/>
+                                                        </imageView>
                                                         <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" spacing="8" translatesAutoresizingMaskIntoConstraints="NO" id="2nZ-U1-1eK">
                                                             <rect key="frame" x="5" y="100" width="334" height="50.5"/>
                                                             <subviews>
@@ -61,8 +64,12 @@
                                                     </subviews>
                                                     <color key="backgroundColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                                     <constraints>
+                                                        <constraint firstAttribute="trailing" secondItem="77d-gy-HTO" secondAttribute="trailing" id="IhL-kM-DuN"/>
                                                         <constraint firstItem="2nZ-U1-1eK" firstAttribute="leading" secondItem="ECU-ZE-2oo" secondAttribute="leading" constant="5" id="M6P-EI-Kzy"/>
+                                                        <constraint firstItem="77d-gy-HTO" firstAttribute="leading" secondItem="ECU-ZE-2oo" secondAttribute="leading" id="T5M-e1-06H"/>
+                                                        <constraint firstItem="77d-gy-HTO" firstAttribute="top" secondItem="ECU-ZE-2oo" secondAttribute="top" id="qWO-T1-vPy"/>
                                                         <constraint firstItem="2nZ-U1-1eK" firstAttribute="top" secondItem="ECU-ZE-2oo" secondAttribute="top" constant="100" id="tWZ-hk-GCF"/>
+                                                        <constraint firstAttribute="bottom" secondItem="77d-gy-HTO" secondAttribute="bottom" id="txG-zy-Zs7"/>
                                                     </constraints>
                                                 </view>
                                             </subviews>
@@ -75,6 +82,7 @@
                                         </tableViewCellContentView>
                                         <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                         <connections>
+                                            <outlet property="imageViewArticle" destination="77d-gy-HTO" id="WYS-6I-VNQ"/>
                                             <outlet property="sourceLabel" destination="Nvh-U4-OVp" id="LAS-TZ-Xc1"/>
                                             <outlet property="titleLabel" destination="Ftg-Yk-28f" id="iPN-az-57h"/>
                                         </connections>

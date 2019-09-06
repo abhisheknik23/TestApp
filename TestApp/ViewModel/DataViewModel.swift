@@ -55,4 +55,8 @@ extension ArticleViewModel {
     var publishedAt: String {
         return self.article.publishedAt
     }
+    
+    var urlToImage: String {
+        return self.article.urlToImage ?? "placeholder"
+    }
 }

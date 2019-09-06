@@ -13,6 +13,7 @@ class ArticleTableViewCell: UITableViewCell {
     @IBOutlet weak var titleLabel: UILabel!
     @IBOutlet weak var descriptionLabel: UILabel!
     @IBOutlet weak var sourceLabel: UILabel!
+    @IBOutlet weak var imageViewArticle: UIImageView!
     
     override func awakeFromNib() {
         super.awakeFromNib()
@@ -26,7 +27,9 @@ class ArticleTableViewCell: UITableViewCell {
     }
     
     override func prepareForReuse() {
-        
+        titleLabel.text = ""
+        sourceLabel.text = ""
+        imageViewArticle.image = UIImage(named: "placeholder")
     }
 
 }

@@ -60,6 +60,17 @@ extension ViewController: UITableViewDelegate, UITableViewDataSource {
         cell.titleLabel.text = articleVM.title
         //cell.descriptionLabel.text = articleVM.description
         cell.sourceLabel.text = articleVM.source.name + " " + articleVM.publishedAt
+        cell.imageViewArticle.loadImage(fromURL: articleVM.urlToImage, placeholder: UIImage.init(named: "placeholder")) { (_, image) in
+            if let image = image {
+                DispatchQueue.main.async {
+                    cell.imageViewArticle.image = image
+                }
+            }else{
+                DispatchQueue.main.async {
+                     cell.imageViewArticle.image = UIImage(named: "placeholder")
+                }
+            }
+        }
         return cell
     }
 }

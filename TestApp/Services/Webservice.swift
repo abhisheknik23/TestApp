@@ -53,3 +53,13 @@ extension Date {
         return dateStringafd
     }
 }
+
+protocol CancelableTask {
+    func cancelTask()
+}
+
+extension URLSessionDataTask: CancelableTask {
+    func cancelTask() {
+        self.cancel()
+    }
+}

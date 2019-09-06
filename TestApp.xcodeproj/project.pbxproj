@@ -48,6 +48,12 @@
 		77B538C3231446A100CF16DA /* RobotoSlab-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 77B538BF231446A100CF16DA /* RobotoSlab-Regular.ttf */; };
 		77B538C4231446A100CF16DA /* RobotoSlab-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 77B538BF231446A100CF16DA /* RobotoSlab-Regular.ttf */; };
 		77B538C5231446A100CF16DA /* RobotoSlab-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 77B538BF231446A100CF16DA /* RobotoSlab-Regular.ttf */; };
+		77D229502319A36C00BFCFAB /* ImageCacheManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 77D2294F2319A36C00BFCFAB /* ImageCacheManager.swift */; };
+		77D229512319A36C00BFCFAB /* ImageCacheManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 77D2294F2319A36C00BFCFAB /* ImageCacheManager.swift */; };
+		77D229522319A36C00BFCFAB /* ImageCacheManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 77D2294F2319A36C00BFCFAB /* ImageCacheManager.swift */; };
+		77D229542319A38200BFCFAB /* UIImageView+URL.swift in Sources */ = {isa = PBXBuildFile; fileRef = 77D229532319A38200BFCFAB /* UIImageView+URL.swift */; };
+		77D229552319A38200BFCFAB /* UIImageView+URL.swift in Sources */ = {isa = PBXBuildFile; fileRef = 77D229532319A38200BFCFAB /* UIImageView+URL.swift */; };
+		77D229562319A38200BFCFAB /* UIImageView+URL.swift in Sources */ = {isa = PBXBuildFile; fileRef = 77D229532319A38200BFCFAB /* UIImageView+URL.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -93,6 +99,8 @@
 		77925D8B2316FAEE004F96DB /* DetailViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailViewController.swift; sourceTree = "<group>"; };
 		77B538BE231446A100CF16DA /* RobotoSlab-Bold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "RobotoSlab-Bold.ttf"; sourceTree = "<group>"; };
 		77B538BF231446A100CF16DA /* RobotoSlab-Regular.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "RobotoSlab-Regular.ttf"; sourceTree = "<group>"; };
+		77D2294F2319A36C00BFCFAB /* ImageCacheManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImageCacheManager.swift; sourceTree = "<group>"; };
+		77D229532319A38200BFCFAB /* UIImageView+URL.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIImageView+URL.swift"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -209,6 +217,7 @@
 			isa = PBXGroup;
 			children = (
 				7777692B231595B700BC2C55 /* Webservice.swift */,
+				77D2294F2319A36C00BFCFAB /* ImageCacheManager.swift */,
 			);
 			path = Services;
 			sourceTree = "<group>";
@@ -259,6 +268,7 @@
 			isa = PBXGroup;
 			children = (
 				7777693323159CAB00BC2C55 /* UITableViewCell+identifier.swift */,
+				77D229532319A38200BFCFAB /* UIImageView+URL.swift */,
 			);
 			path = Extensions;
 			sourceTree = "<group>";
@@ -405,12 +415,14 @@
 				7777693423159CAB00BC2C55 /* UITableViewCell+identifier.swift in Sources */,
 				77925D8C2316FAEE004F96DB /* DetailViewController.swift in Sources */,
 				77146A9D230F05AA00F91B11 /* ViewController.swift in Sources */,
+				77D229502319A36C00BFCFAB /* ImageCacheManager.swift in Sources */,
 				7777692C231595B700BC2C55 /* Webservice.swift in Sources */,
 				77146AD2230F08E900F91B11 /* DataModel.swift in Sources */,
 				77146AA3230F05AA00F91B11 /* TestApp.xcdatamodeld in Sources */,
 				77146A9B230F05AA00F91B11 /* AppDelegate.swift in Sources */,
 				77146ADC230F0AC000F91B11 /* Articles.swift in Sources */,
 				77146AD6230F08FB00F91B11 /* DataViewModel.swift in Sources */,
+				77D229542319A38200BFCFAB /* UIImageView+URL.swift in Sources */,
 				77925D882316F0AD004F96DB /* DataBaseManager.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -421,6 +433,7 @@
 			files = (
 				77146ADD230F0AC000F91B11 /* Articles.swift in Sources */,
 				77925D892316F0AD004F96DB /* DataBaseManager.swift in Sources */,
+				77D229552319A38200BFCFAB /* UIImageView+URL.swift in Sources */,
 				77146AB3230F05AC00F91B11 /* TestAppTests.swift in Sources */,
 				7777692D231595B700BC2C55 /* Webservice.swift in Sources */,
 				77146AE3230F0AC000F91B11 /* Source.swift in Sources */,
@@ -428,6 +441,7 @@
 				77146AD3230F08E900F91B11 /* DataModel.swift in Sources */,
 				77925D8D2316FAEE004F96DB /* DetailViewController.swift in Sources */,
 				7777693123159A7600BC2C55 /* ArticleTableViewCell.swift in Sources */,
+				77D229512319A36C00BFCFAB /* ImageCacheManager.swift in Sources */,
 				77146AD7230F08FB00F91B11 /* DataViewModel.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -438,6 +452,7 @@
 			files = (
 				77146ADE230F0AC000F91B11 /* Articles.swift in Sources */,
 				77925D8A2316F0AD004F96DB /* DataBaseManager.swift in Sources */,
+				77D229562319A38200BFCFAB /* UIImageView+URL.swift in Sources */,
 				77146ABE230F05AC00F91B11 /* TestAppUITests.swift in Sources */,
 				7777692E231595B700BC2C55 /* Webservice.swift in Sources */,
 				77146AE4230F0AC000F91B11 /* Source.swift in Sources */,
@@ -445,6 +460,7 @@
 				77146AD4230F08E900F91B11 /* DataModel.swift in Sources */,
 				77925D8E2316FAEE004F96DB /* DetailViewController.swift in Sources */,
 				7777693223159A7600BC2C55 /* ArticleTableViewCell.swift in Sources */,
+				77D229522319A36C00BFCFAB /* ImageCacheManager.swift in Sources */,
 				77146AD8230F08FB00F91B11 /* DataViewModel.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
